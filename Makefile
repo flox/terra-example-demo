@@ -1,23 +1,20 @@
 TF = terraform
+TF_VERSION := $(shell terraform version -json | jq -r '.terraform_version')
 
 .PHONY: all version plan apply clean
 
 all: version plan apply
 
 version:
-	@echo "Terraform version:"
-	@$(TF) version
+	@echo "Terraform version: $(TF_VERSION)"
 
 plan:
-	@echo "\nRunning terraform init and plan..."
 	@$(TF) init -input=false
-	@$(TF) plan -out=tfplan.out
+	@$(TF) plan -var="terraform_version=$(TF_VERSION)" -out=tfplan.out
 
 apply:
-	@echo "\nApplying the terraform plan..."
-	@$(TF) apply -input=false tfplan.out
+	@$(TF) apply -var="terraform_version=$(TF_VERSION)" -input=false tfplan.out
 
 clean:
-	@echo "\nCleaning up local terraform state..."
 	@rm -f tfplan.out
 	@rm -rf .terraform .terraform.lock.hcl terraform.tfstate terraform.tfstate.backup hello.txt
