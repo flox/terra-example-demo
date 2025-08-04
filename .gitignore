@@ -1,0 +1,6 @@
+.terraform.lock.hcl
+.terraform/
+hello.txt
+terraform.tfstate
+terraform.tfstate.backup
+tfplan.out
