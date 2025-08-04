@@ -16,6 +16,7 @@ version = 1
 ## -------------------------------------------------------------------
 [install]
 terraform.pkg-path = "terraform"
+gnumake.pkg-path = "gnumake"
 # gum.pkg-path = "gum"
 # gum.version = "^0.14.5"
 
