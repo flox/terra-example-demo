@@ -18,17 +18,17 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/8pa1f5033a506w5qmhywh5df00xz540c-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/q2w5hiwdryp7j24bhimd8w0j8iii2m5i-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=94def634a20494ee057c76998843c015909d6311",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "94def634a20494ee057c76998843c015909d6311",
-      "rev_count": 837094,
-      "rev_date": "2025-07-31T05:30:45Z",
-      "scrape_date": "2025-08-02T00:29:09.034361Z",
+      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "rev_count": 888552,
+      "rev_date": "2025-11-02T19:18:41Z",
+      "scrape_date": "2025-11-04T00:35:19.232486Z",
       "stabilities": [
         "unstable"
       ],
@@ -39,9 +39,9 @@
         "out"
       ],
       "outputs": {
-        "info": "/nix/store/3jy0yby6jq6n5777rqya8913gr6wzdv5-gnumake-4.4.1-info",
-        "man": "/nix/store/d4dxxrdcri80kbzbkgnzw1bgjjq9ln4g-gnumake-4.4.1-man",
-        "out": "/nix/store/8l8qhxbk9isvxvg22prkvqay1g7x8xh8-gnumake-4.4.1"
+        "info": "/nix/store/gs4yxm5a7d3nprhki0nhvgkyf1qmwg6k-gnumake-4.4.1-info",
+        "man": "/nix/store/68mjxlv0jd70galxjx88978j220qvy2w-gnumake-4.4.1-man",
+        "out": "/nix/store/zr6nvq9ama3y1nhjpdhrgacrk9hg0p7m-gnumake-4.4.1"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -50,17 +50,17 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/8q7z6mjhlx289kxkdjwi6i0j64nzl908-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/rjfni0l46ivfj0j8hibr2pjkq4fi84c3-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=94def634a20494ee057c76998843c015909d6311",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "94def634a20494ee057c76998843c015909d6311",
-      "rev_count": 837094,
-      "rev_date": "2025-07-31T05:30:45Z",
-      "scrape_date": "2025-08-02T00:49:20.015113Z",
+      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "rev_count": 888552,
+      "rev_date": "2025-11-02T19:18:41Z",
+      "scrape_date": "2025-11-05T16:28:59.312990Z",
       "stabilities": [
         "unstable"
       ],
@@ -71,10 +71,10 @@
         "out"
       ],
       "outputs": {
-        "debug": "/nix/store/q92zl65186ayqg0f6vvhzldyi5bhpc70-gnumake-4.4.1-debug",
-        "info": "/nix/store/ygnz9sgg6xbvvn6q4242jq9a4w0hfr57-gnumake-4.4.1-info",
-        "man": "/nix/store/mnzb2cgp3hpvw3i5dn4bccs6ln4cnkpc-gnumake-4.4.1-man",
-        "out": "/nix/store/9ccm93c2lj2kb6m175grf8775w3yzvng-gnumake-4.4.1"
+        "debug": "/nix/store/gkgyv58r897z65fcl54ih23iip2d552z-gnumake-4.4.1-debug",
+        "info": "/nix/store/vnx2hz71ac4x62a1rr39ak2dmwybdd5r-gnumake-4.4.1-info",
+        "man": "/nix/store/dlpphdrnlizli5xfpyrc2h21yf47n2aw-gnumake-4.4.1-man",
+        "out": "/nix/store/qah1z8qz3jl5104x8wj00x9qqlxzd5n2-gnumake-4.4.1"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -83,17 +83,17 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/89w7rbb8sdd34g3x8683w2mgvrz5wl8i-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/vjsj1c734g68w4lih8ns2z34cyrq2h84-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=94def634a20494ee057c76998843c015909d6311",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "94def634a20494ee057c76998843c015909d6311",
-      "rev_count": 837094,
-      "rev_date": "2025-07-31T05:30:45Z",
-      "scrape_date": "2025-08-02T01:09:24.891442Z",
+      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "rev_count": 888552,
+      "rev_date": "2025-11-02T19:18:41Z",
+      "scrape_date": "2025-11-05T16:54:58.285735Z",
       "stabilities": [
         "unstable"
       ],
@@ -104,9 +104,9 @@
         "out"
       ],
       "outputs": {
-        "info": "/nix/store/38s0gpkmw3ripdv7iigqwwvdwgk88sb5-gnumake-4.4.1-info",
-        "man": "/nix/store/xy024cz8x9hxbr3m1im6yk3bh8sd7q0w-gnumake-4.4.1-man",
-        "out": "/nix/store/wwzvqkjzdqwrrwr600lygfq87j1cbvr5-gnumake-4.4.1"
+        "info": "/nix/store/yyq62s4yh31wx97g7r6f9lif178w47ng-gnumake-4.4.1-info",
+        "man": "/nix/store/lizzz78df6p2q84vxn0fq90z3ls4hvpd-gnumake-4.4.1-man",
+        "out": "/nix/store/y0fzfgy59x3kwhh535cvrn9r7i5wd9xq-gnumake-4.4.1"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -115,17 +115,17 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/clqgcxxr6iqqzcr4rgyb1dk4sqv0nyyh-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/k064fvv07233fq01li4zxv86y2c56m7m-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=94def634a20494ee057c76998843c015909d6311",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "94def634a20494ee057c76998843c015909d6311",
-      "rev_count": 837094,
-      "rev_date": "2025-07-31T05:30:45Z",
-      "scrape_date": "2025-08-02T01:33:46.146382Z",
+      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "rev_count": 888552,
+      "rev_date": "2025-11-02T19:18:41Z",
+      "scrape_date": "2025-11-05T17:20:48.801495Z",
       "stabilities": [
         "unstable"
       ],
@@ -136,10 +136,10 @@
         "out"
       ],
       "outputs": {
-        "debug": "/nix/store/8vg51i45l7bqcc2qfcnjgppxlsfzi11h-gnumake-4.4.1-debug",
-        "info": "/nix/store/hs8b0bwzv4q3w8mf4pbq8l7v0vnjj0f9-gnumake-4.4.1-info",
-        "man": "/nix/store/n414mxklk1mxyk9syhbbh6j0d92l4ggi-gnumake-4.4.1-man",
-        "out": "/nix/store/kzf67ka1wa2055bnsdrnqnv59md9xbxa-gnumake-4.4.1"
+        "debug": "/nix/store/10jld6gf62ldl1da3126487g4gxs35v2-gnumake-4.4.1-debug",
+        "info": "/nix/store/b51jfnxlardqir240px0wnfp64gzxfkl-gnumake-4.4.1-info",
+        "man": "/nix/store/k1m93yfl4p51nnciskn2pbxqm2sv0mxm-gnumake-4.4.1-man",
+        "out": "/nix/store/frwvl0f18pk66clb8gqlby33wldx84aq-gnumake-4.4.1"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -148,27 +148,27 @@
     {
       "attr_path": "terraform",
       "broken": false,
-      "derivation": "/nix/store/ams5hmadjx1z4k0cdjv71l0wvdmrn3nl-terraform-1.12.2.drv",
+      "derivation": "/nix/store/vgx81fymxh9pvavspfc4ahrhwy4dh1lh-terraform-1.13.4.drv",
       "description": "Tool for building, changing, and versioning infrastructure",
       "install_id": "terraform",
       "license": "BUSL-1.1",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=94def634a20494ee057c76998843c015909d6311",
-      "name": "terraform-1.12.2",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "name": "terraform-1.13.4",
       "pname": "terraform",
-      "rev": "94def634a20494ee057c76998843c015909d6311",
-      "rev_count": 837094,
-      "rev_date": "2025-07-31T05:30:45Z",
-      "scrape_date": "2025-08-02T00:29:52.254905Z",
+      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "rev_count": 888552,
+      "rev_date": "2025-11-02T19:18:41Z",
+      "scrape_date": "2025-11-04T00:37:06.053986Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": true,
-      "version": "1.12.2",
+      "version": "1.13.4",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/40gjbhfk5r4njbvkny3jcn8dz9slr138-terraform-1.12.2"
+        "out": "/nix/store/962132zwxzm78igjmhkzbggqb16wnr0q-terraform-1.13.4"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -177,27 +177,27 @@
     {
       "attr_path": "terraform",
       "broken": false,
-      "derivation": "/nix/store/vpbpkgbpykh650y02nsjza3ps0vkrbg9-terraform-1.12.2.drv",
+      "derivation": "/nix/store/jp0lrm84c90isw9bj57jrm6cv9zmyf96-terraform-1.13.4.drv",
       "description": "Tool for building, changing, and versioning infrastructure",
       "install_id": "terraform",
       "license": "BUSL-1.1",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=94def634a20494ee057c76998843c015909d6311",
-      "name": "terraform-1.12.2",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "name": "terraform-1.13.4",
       "pname": "terraform",
-      "rev": "94def634a20494ee057c76998843c015909d6311",
-      "rev_count": 837094,
-      "rev_date": "2025-07-31T05:30:45Z",
-      "scrape_date": "2025-08-02T00:50:30.656740Z",
+      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "rev_count": 888552,
+      "rev_date": "2025-11-02T19:18:41Z",
+      "scrape_date": "2025-11-05T16:31:26.300999Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": true,
-      "version": "1.12.2",
+      "version": "1.13.4",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/bvi0sf7qi75lk7aczgwp1bq811py9rj0-terraform-1.12.2"
+        "out": "/nix/store/4m118wirscay8rsgk5ifn1lak9hnpm2s-terraform-1.13.4"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -206,27 +206,27 @@
     {
       "attr_path": "terraform",
       "broken": false,
-      "derivation": "/nix/store/77kxi37kvkds1267rh0fp7k1bivj9pdy-terraform-1.12.2.drv",
+      "derivation": "/nix/store/p8651h4d3h25087vpp0av8iw8cjfc1x3-terraform-1.13.4.drv",
       "description": "Tool for building, changing, and versioning infrastructure",
       "install_id": "terraform",
       "license": "BUSL-1.1",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=94def634a20494ee057c76998843c015909d6311",
-      "name": "terraform-1.12.2",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "name": "terraform-1.13.4",
       "pname": "terraform",
-      "rev": "94def634a20494ee057c76998843c015909d6311",
-      "rev_count": 837094,
-      "rev_date": "2025-07-31T05:30:45Z",
-      "scrape_date": "2025-08-02T01:10:09.776372Z",
+      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "rev_count": 888552,
+      "rev_date": "2025-11-02T19:18:41Z",
+      "scrape_date": "2025-11-05T16:56:40.882061Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": true,
-      "version": "1.12.2",
+      "version": "1.13.4",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/km3x95bvr81n0lpyfr7nf00vifl3q6hy-terraform-1.12.2"
+        "out": "/nix/store/lr0j0zkczx4zg92nry2phh8vs4y4c4zy-terraform-1.13.4"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -235,27 +235,27 @@
     {
       "attr_path": "terraform",
       "broken": false,
-      "derivation": "/nix/store/cc7m006dq4wlrnipbgd2b7ql3yji47z0-terraform-1.12.2.drv",
+      "derivation": "/nix/store/316nz0n1wmlpli7vrdbx5s1ahk97jx81-terraform-1.13.4.drv",
       "description": "Tool for building, changing, and versioning infrastructure",
       "install_id": "terraform",
       "license": "BUSL-1.1",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=94def634a20494ee057c76998843c015909d6311",
-      "name": "terraform-1.12.2",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "name": "terraform-1.13.4",
       "pname": "terraform",
-      "rev": "94def634a20494ee057c76998843c015909d6311",
-      "rev_count": 837094,
-      "rev_date": "2025-07-31T05:30:45Z",
-      "scrape_date": "2025-08-02T01:35:05.131091Z",
+      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "rev_count": 888552,
+      "rev_date": "2025-11-02T19:18:41Z",
+      "scrape_date": "2025-11-05T17:23:30.302495Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": true,
-      "version": "1.12.2",
+      "version": "1.13.4",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/vxazqkmsxlc6fgx3kl53jxiwjszghwrm-terraform-1.12.2"
+        "out": "/nix/store/sjbyjd98xm8k1q9mq5js7pv1g43660d9-terraform-1.13.4"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
