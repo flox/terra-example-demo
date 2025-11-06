@@ -6,8 +6,14 @@
       "gnumake": {
         "pkg-path": "gnumake"
       },
-      "terraform": {
-        "pkg-path": "terraform"
+      "opentofu": {
+        "pkg-path": "opentofu"
+      },
+      "tfmigrate": {
+        "pkg-path": "tfmigrate"
+      },
+      "unzip": {
+        "pkg-path": "unzip"
       }
     },
     "hook": {},
@@ -146,116 +152,348 @@
       "priority": 5
     },
     {
-      "attr_path": "terraform",
+      "attr_path": "opentofu",
       "broken": false,
-      "derivation": "/nix/store/vgx81fymxh9pvavspfc4ahrhwy4dh1lh-terraform-1.13.4.drv",
+      "derivation": "/nix/store/52nljsavx3sjxbjcr1zmqcldi28gy1h0-opentofu-1.10.6.drv",
       "description": "Tool for building, changing, and versioning infrastructure",
-      "install_id": "terraform",
-      "license": "BUSL-1.1",
+      "install_id": "opentofu",
+      "license": "MPL-2.0",
       "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "name": "terraform-1.13.4",
-      "pname": "terraform",
+      "name": "opentofu-1.10.6",
+      "pname": "opentofu",
       "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
       "rev_count": 888552,
       "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-04T00:37:06.053986Z",
+      "scrape_date": "2025-11-04T00:35:43.462370Z",
       "stabilities": [
         "unstable"
       ],
-      "unfree": true,
-      "version": "1.13.4",
+      "unfree": false,
+      "version": "1.10.6",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/962132zwxzm78igjmhkzbggqb16wnr0q-terraform-1.13.4"
+        "out": "/nix/store/nhd9r8yqgvz8kkxzvaca87jks477kf5c-opentofu-1.10.6"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
       "priority": 5
     },
     {
-      "attr_path": "terraform",
+      "attr_path": "opentofu",
       "broken": false,
-      "derivation": "/nix/store/jp0lrm84c90isw9bj57jrm6cv9zmyf96-terraform-1.13.4.drv",
+      "derivation": "/nix/store/qssd76pn5q80f4sfqbygn1s8bh7bap9b-opentofu-1.10.6.drv",
       "description": "Tool for building, changing, and versioning infrastructure",
-      "install_id": "terraform",
-      "license": "BUSL-1.1",
+      "install_id": "opentofu",
+      "license": "MPL-2.0",
       "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "name": "terraform-1.13.4",
-      "pname": "terraform",
+      "name": "opentofu-1.10.6",
+      "pname": "opentofu",
       "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
       "rev_count": 888552,
       "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-05T16:31:26.300999Z",
+      "scrape_date": "2025-11-05T16:29:40.062183Z",
       "stabilities": [
         "unstable"
       ],
-      "unfree": true,
-      "version": "1.13.4",
+      "unfree": false,
+      "version": "1.10.6",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/4m118wirscay8rsgk5ifn1lak9hnpm2s-terraform-1.13.4"
+        "out": "/nix/store/wqlz8p97dwsp70i8i45lbczdk1wpxb6l-opentofu-1.10.6"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
       "priority": 5
     },
     {
-      "attr_path": "terraform",
+      "attr_path": "opentofu",
       "broken": false,
-      "derivation": "/nix/store/p8651h4d3h25087vpp0av8iw8cjfc1x3-terraform-1.13.4.drv",
+      "derivation": "/nix/store/qdar97378xkrdyrp157a0k987cx461rq-opentofu-1.10.6.drv",
       "description": "Tool for building, changing, and versioning infrastructure",
-      "install_id": "terraform",
-      "license": "BUSL-1.1",
+      "install_id": "opentofu",
+      "license": "MPL-2.0",
       "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "name": "terraform-1.13.4",
-      "pname": "terraform",
+      "name": "opentofu-1.10.6",
+      "pname": "opentofu",
       "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
       "rev_count": 888552,
       "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-05T16:56:40.882061Z",
+      "scrape_date": "2025-11-05T16:55:23.146261Z",
       "stabilities": [
         "unstable"
       ],
-      "unfree": true,
-      "version": "1.13.4",
+      "unfree": false,
+      "version": "1.10.6",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/lr0j0zkczx4zg92nry2phh8vs4y4c4zy-terraform-1.13.4"
+        "out": "/nix/store/dfk91xlg8mx1vp1id0v2m5pk3pscvxdr-opentofu-1.10.6"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
       "priority": 5
     },
     {
-      "attr_path": "terraform",
+      "attr_path": "opentofu",
       "broken": false,
-      "derivation": "/nix/store/316nz0n1wmlpli7vrdbx5s1ahk97jx81-terraform-1.13.4.drv",
+      "derivation": "/nix/store/qhif7igxrp4x87swxqs5kqb5ivn411br-opentofu-1.10.6.drv",
       "description": "Tool for building, changing, and versioning infrastructure",
-      "install_id": "terraform",
-      "license": "BUSL-1.1",
+      "install_id": "opentofu",
+      "license": "MPL-2.0",
       "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "name": "terraform-1.13.4",
-      "pname": "terraform",
+      "name": "opentofu-1.10.6",
+      "pname": "opentofu",
       "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
       "rev_count": 888552,
       "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-05T17:23:30.302495Z",
+      "scrape_date": "2025-11-05T17:21:33.427416Z",
       "stabilities": [
         "unstable"
       ],
-      "unfree": true,
-      "version": "1.13.4",
+      "unfree": false,
+      "version": "1.10.6",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/sjbyjd98xm8k1q9mq5js7pv1g43660d9-terraform-1.13.4"
+        "out": "/nix/store/h10sfmsq07s218dbd1v7l1cj7dsr55a1-opentofu-1.10.6"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "tfmigrate",
+      "broken": false,
+      "derivation": "/nix/store/4yxivkmkagrihnn0h44vhla40b8k8gnd-tfmigrate-0.4.3.drv",
+      "description": "Terraform / OpenTofu state migration tool for GitOps ",
+      "install_id": "tfmigrate",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "name": "tfmigrate-0.4.3",
+      "pname": "tfmigrate",
+      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "rev_count": 888552,
+      "rev_date": "2025-11-02T19:18:41Z",
+      "scrape_date": "2025-11-04T00:37:24.809630Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.4.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/88jj7x61w448fyd0jyhfj7xh0dh18c90-tfmigrate-0.4.3"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "tfmigrate",
+      "broken": false,
+      "derivation": "/nix/store/yk89pmqmdi8glr75x40sdfad90mgasnd-tfmigrate-0.4.3.drv",
+      "description": "Terraform / OpenTofu state migration tool for GitOps ",
+      "install_id": "tfmigrate",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "name": "tfmigrate-0.4.3",
+      "pname": "tfmigrate",
+      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "rev_count": 888552,
+      "rev_date": "2025-11-02T19:18:41Z",
+      "scrape_date": "2025-11-05T16:31:48.772099Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.4.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/91r2ally6h2c1dwp037vnbz3il9cb4zd-tfmigrate-0.4.3"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "tfmigrate",
+      "broken": false,
+      "derivation": "/nix/store/w4c76hvmb42wrmaf8ijmjiacm33iph3h-tfmigrate-0.4.3.drv",
+      "description": "Terraform / OpenTofu state migration tool for GitOps ",
+      "install_id": "tfmigrate",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "name": "tfmigrate-0.4.3",
+      "pname": "tfmigrate",
+      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "rev_count": 888552,
+      "rev_date": "2025-11-02T19:18:41Z",
+      "scrape_date": "2025-11-05T16:56:58.195366Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.4.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/i4qv9d50w8yfwp597cm9b17nfnq9kq48-tfmigrate-0.4.3"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "tfmigrate",
+      "broken": false,
+      "derivation": "/nix/store/2jpk7qspgdw56a0kcvkskkprcix509g9-tfmigrate-0.4.3.drv",
+      "description": "Terraform / OpenTofu state migration tool for GitOps ",
+      "install_id": "tfmigrate",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "name": "tfmigrate-0.4.3",
+      "pname": "tfmigrate",
+      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "rev_count": 888552,
+      "rev_date": "2025-11-02T19:18:41Z",
+      "scrape_date": "2025-11-05T17:23:54.337948Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.4.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1iywhiz752rd2li973grn26ylgjmx9pp-tfmigrate-0.4.3"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "unzip",
+      "broken": false,
+      "derivation": "/nix/store/58lsk2jycfda861xki358dn7prpsa7h9-unzip-6.0.drv",
+      "description": "Extraction utility for archives compressed in .zip format",
+      "install_id": "unzip",
+      "license": "Info-ZIP",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "name": "unzip-6.0",
+      "pname": "unzip",
+      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "rev_count": 888552,
+      "rev_date": "2025-11-02T19:18:41Z",
+      "scrape_date": "2025-11-04T00:37:39.125369Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "6.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/cax7jwcpr8jvzmig070zs82sh6rbl4g5-unzip-6.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "unzip",
+      "broken": false,
+      "derivation": "/nix/store/hg5gq6rvp6cmiv4gwa6ydi1yw8xxd3nx-unzip-6.0.drv",
+      "description": "Extraction utility for archives compressed in .zip format",
+      "install_id": "unzip",
+      "license": "Info-ZIP",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "name": "unzip-6.0",
+      "pname": "unzip",
+      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "rev_count": 888552,
+      "rev_date": "2025-11-02T19:18:41Z",
+      "scrape_date": "2025-11-05T16:32:06.398669Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "6.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9091ih273z39dw91pcq0va5wnh4ndjwk-unzip-6.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "unzip",
+      "broken": false,
+      "derivation": "/nix/store/0ygcsyh6yvzcilxvigw44xkg8a5x2khh-unzip-6.0.drv",
+      "description": "Extraction utility for archives compressed in .zip format",
+      "install_id": "unzip",
+      "license": "Info-ZIP",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "name": "unzip-6.0",
+      "pname": "unzip",
+      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "rev_count": 888552,
+      "rev_date": "2025-11-02T19:18:41Z",
+      "scrape_date": "2025-11-05T16:57:11.761842Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "6.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/c2wa619lhlsl3l2d3w9b0m7xpnmzdxi6-unzip-6.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "unzip",
+      "broken": false,
+      "derivation": "/nix/store/0irfwxxsv1z2p4kh9nfaz3cdh1hh226m-unzip-6.0.drv",
+      "description": "Extraction utility for archives compressed in .zip format",
+      "install_id": "unzip",
+      "license": "Info-ZIP",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "name": "unzip-6.0",
+      "pname": "unzip",
+      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "rev_count": 888552,
+      "rev_date": "2025-11-02T19:18:41Z",
+      "scrape_date": "2025-11-05T17:24:14.054242Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "6.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/j7mg9a0m9iihzyw82va027mz3nzm6ak3-unzip-6.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",

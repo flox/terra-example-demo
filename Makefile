@@ -1,12 +1,13 @@
-TF = terraform
-TF_VERSION := $(shell terraform version -json | jq -r '.terraform_version')
+#TF = terraform
+TF = tofu
+TF_VERSION := $(shell $(TF) version -json | jq -r '.terraform_version')
 
 .PHONY: all version plan apply clean
 
 all: version plan apply
 
 version:
-	@echo "Terraform version: $(TF_VERSION)"
+	@echo "Open Tofu version: $(TF_VERSION)"
 
 plan:
 	@$(TF) init -input=false
