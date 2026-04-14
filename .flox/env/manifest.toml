@@ -6,7 +6,7 @@
 ##
 ## -------------------------------------------------------------------
 # Flox manifest version managed by Flox CLI
-version = 1
+schema-version = "1.11.0"
 
 
 ## Install Packages --------------------------------------------------
@@ -16,6 +16,7 @@ version = 1
 ## -------------------------------------------------------------------
 [install]
 gnumake.pkg-path = "gnumake"
+gnumake.outputs = "all"
 opentofu.pkg-path = "opentofu"
 tfmigrate.pkg-path = "tfmigrate"
 unzip.pkg-path = "unzip"

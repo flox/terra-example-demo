@@ -1,10 +1,11 @@
 {
   "lockfile-version": 1,
   "manifest": {
-    "version": 1,
+    "schema-version": "1.11.0",
     "install": {
       "gnumake": {
-        "pkg-path": "gnumake"
+        "pkg-path": "gnumake",
+        "outputs": "all"
       },
       "opentofu": {
         "pkg-path": "opentofu"
@@ -24,17 +25,17 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/q2w5hiwdryp7j24bhimd8w0j8iii2m5i-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/6gi7nfysgzgi13fzz4vf8pv47j58r25f-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "rev_count": 888552,
-      "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-04T00:35:19.232486Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T06:03:34.346008Z",
       "stabilities": [
         "unstable"
       ],
@@ -45,9 +46,10 @@
         "out"
       ],
       "outputs": {
-        "info": "/nix/store/gs4yxm5a7d3nprhki0nhvgkyf1qmwg6k-gnumake-4.4.1-info",
-        "man": "/nix/store/68mjxlv0jd70galxjx88978j220qvy2w-gnumake-4.4.1-man",
-        "out": "/nix/store/zr6nvq9ama3y1nhjpdhrgacrk9hg0p7m-gnumake-4.4.1"
+        "doc": "/nix/store/hb81l6za1swj09szhxj902bjf9b9cwzc-gnumake-4.4.1-doc",
+        "info": "/nix/store/xynyfhcn9r7jd4iakdr71yb6grabjgf7-gnumake-4.4.1-info",
+        "man": "/nix/store/b2y9y7i57sml44mk7wl4ba8wr8adgavs-gnumake-4.4.1-man",
+        "out": "/nix/store/y40n7jzzy9qydb120kxgbzi55mprbkfm-gnumake-4.4.1"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -56,17 +58,17 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/rjfni0l46ivfj0j8hibr2pjkq4fi84c3-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/1if96cdzkwg2hyiabzsjskhvggamkjq1-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "rev_count": 888552,
-      "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-05T16:28:59.312990Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T06:35:00.941736Z",
       "stabilities": [
         "unstable"
       ],
@@ -77,10 +79,11 @@
         "out"
       ],
       "outputs": {
-        "debug": "/nix/store/gkgyv58r897z65fcl54ih23iip2d552z-gnumake-4.4.1-debug",
-        "info": "/nix/store/vnx2hz71ac4x62a1rr39ak2dmwybdd5r-gnumake-4.4.1-info",
-        "man": "/nix/store/dlpphdrnlizli5xfpyrc2h21yf47n2aw-gnumake-4.4.1-man",
-        "out": "/nix/store/qah1z8qz3jl5104x8wj00x9qqlxzd5n2-gnumake-4.4.1"
+        "debug": "/nix/store/px43zlq4bz3zjmc91b6wb6949c8dfxvi-gnumake-4.4.1-debug",
+        "doc": "/nix/store/jhss2k9jczl72jk284kvaj9303yvylwy-gnumake-4.4.1-doc",
+        "info": "/nix/store/1qf6j3yza10lw1iy9w0qm9gliqzfw6xk-gnumake-4.4.1-info",
+        "man": "/nix/store/j4psv3ifmnw0wa8p38rxv5k6vskz4wcs-gnumake-4.4.1-man",
+        "out": "/nix/store/j8hf0sbds6y5il4vb2bz3rx0xivmnsl1-gnumake-4.4.1"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -89,17 +92,17 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/vjsj1c734g68w4lih8ns2z34cyrq2h84-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/x36hsg814apahf4jqpjryxpglghilpw4-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "rev_count": 888552,
-      "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-05T16:54:58.285735Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T07:05:09.443500Z",
       "stabilities": [
         "unstable"
       ],
@@ -110,9 +113,10 @@
         "out"
       ],
       "outputs": {
-        "info": "/nix/store/yyq62s4yh31wx97g7r6f9lif178w47ng-gnumake-4.4.1-info",
-        "man": "/nix/store/lizzz78df6p2q84vxn0fq90z3ls4hvpd-gnumake-4.4.1-man",
-        "out": "/nix/store/y0fzfgy59x3kwhh535cvrn9r7i5wd9xq-gnumake-4.4.1"
+        "doc": "/nix/store/2fz6r9nchhyn4i7f9gg5assx9ld2j3mm-gnumake-4.4.1-doc",
+        "info": "/nix/store/h0jgx7zbyyvhcj0lq0la6siv4d3bl9xa-gnumake-4.4.1-info",
+        "man": "/nix/store/r2qnj53aynk05zan3z2j960klx7085dq-gnumake-4.4.1-man",
+        "out": "/nix/store/bijx0sq7avqq7apvqsfb3lmza97lpcxz-gnumake-4.4.1"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -121,17 +125,17 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/k064fvv07233fq01li4zxv86y2c56m7m-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/rdw0vaa7xc9wzms9i0npw1a1w378y6n9-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "rev_count": 888552,
-      "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-05T17:20:48.801495Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T07:39:15.201652Z",
       "stabilities": [
         "unstable"
       ],
@@ -142,10 +146,11 @@
         "out"
       ],
       "outputs": {
-        "debug": "/nix/store/10jld6gf62ldl1da3126487g4gxs35v2-gnumake-4.4.1-debug",
-        "info": "/nix/store/b51jfnxlardqir240px0wnfp64gzxfkl-gnumake-4.4.1-info",
-        "man": "/nix/store/k1m93yfl4p51nnciskn2pbxqm2sv0mxm-gnumake-4.4.1-man",
-        "out": "/nix/store/frwvl0f18pk66clb8gqlby33wldx84aq-gnumake-4.4.1"
+        "debug": "/nix/store/bzap48lhfqcjczhj2ry3gwqjh9klkgxf-gnumake-4.4.1-debug",
+        "doc": "/nix/store/0jx03f9vis4zp8b7s2ybp9anlgk68ihy-gnumake-4.4.1-doc",
+        "info": "/nix/store/pbs6fhcn3gjr6x9fzdlk0kwqg1m5gk5g-gnumake-4.4.1-info",
+        "man": "/nix/store/p75qwzzsxdhpnhdjx4fbjy20p9qxp326-gnumake-4.4.1-man",
+        "out": "/nix/store/45npani18v2m7sbkrzrv2xyilyghrny9-gnumake-4.4.1"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -154,27 +159,27 @@
     {
       "attr_path": "opentofu",
       "broken": false,
-      "derivation": "/nix/store/52nljsavx3sjxbjcr1zmqcldi28gy1h0-opentofu-1.10.6.drv",
+      "derivation": "/nix/store/mj1qb9wd3155yz1yvc3d07ix3fjxw3mk-opentofu-1.11.6.drv",
       "description": "Tool for building, changing, and versioning infrastructure",
       "install_id": "opentofu",
       "license": "MPL-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "name": "opentofu-1.10.6",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
+      "name": "opentofu-1.11.6",
       "pname": "opentofu",
-      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "rev_count": 888552,
-      "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-04T00:35:43.462370Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T06:04:03.015427Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "1.10.6",
+      "version": "1.11.6",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/nhd9r8yqgvz8kkxzvaca87jks477kf5c-opentofu-1.10.6"
+        "out": "/nix/store/2q8yhgimylc6ccsjh2j9cpygfdkk441w-opentofu-1.11.6"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -183,27 +188,27 @@
     {
       "attr_path": "opentofu",
       "broken": false,
-      "derivation": "/nix/store/qssd76pn5q80f4sfqbygn1s8bh7bap9b-opentofu-1.10.6.drv",
+      "derivation": "/nix/store/xczdnrvw36y9740zd8ljl8gvf7zcysdm-opentofu-1.11.6.drv",
       "description": "Tool for building, changing, and versioning infrastructure",
       "install_id": "opentofu",
       "license": "MPL-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "name": "opentofu-1.10.6",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
+      "name": "opentofu-1.11.6",
       "pname": "opentofu",
-      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "rev_count": 888552,
-      "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-05T16:29:40.062183Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T06:35:43.303835Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "1.10.6",
+      "version": "1.11.6",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/wqlz8p97dwsp70i8i45lbczdk1wpxb6l-opentofu-1.10.6"
+        "out": "/nix/store/v6bwbpix3hqpbyidqpmlazidhlhwqlbl-opentofu-1.11.6"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -212,27 +217,27 @@
     {
       "attr_path": "opentofu",
       "broken": false,
-      "derivation": "/nix/store/qdar97378xkrdyrp157a0k987cx461rq-opentofu-1.10.6.drv",
+      "derivation": "/nix/store/z1rymwq05hq5130mn682m56qmcl724pz-opentofu-1.11.6.drv",
       "description": "Tool for building, changing, and versioning infrastructure",
       "install_id": "opentofu",
       "license": "MPL-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "name": "opentofu-1.10.6",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
+      "name": "opentofu-1.11.6",
       "pname": "opentofu",
-      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "rev_count": 888552,
-      "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-05T16:55:23.146261Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T07:05:37.444641Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "1.10.6",
+      "version": "1.11.6",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/dfk91xlg8mx1vp1id0v2m5pk3pscvxdr-opentofu-1.10.6"
+        "out": "/nix/store/3iambzj17slq072w9nj6aizkl7jg3kdr-opentofu-1.11.6"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -241,27 +246,27 @@
     {
       "attr_path": "opentofu",
       "broken": false,
-      "derivation": "/nix/store/qhif7igxrp4x87swxqs5kqb5ivn411br-opentofu-1.10.6.drv",
+      "derivation": "/nix/store/wldvawrhipy6ykqnsgdd8jx37dcl9a4h-opentofu-1.11.6.drv",
       "description": "Tool for building, changing, and versioning infrastructure",
       "install_id": "opentofu",
       "license": "MPL-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "name": "opentofu-1.10.6",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
+      "name": "opentofu-1.11.6",
       "pname": "opentofu",
-      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "rev_count": 888552,
-      "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-05T17:21:33.427416Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T07:39:59.784935Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "1.10.6",
+      "version": "1.11.6",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/h10sfmsq07s218dbd1v7l1cj7dsr55a1-opentofu-1.10.6"
+        "out": "/nix/store/7ffsyb2jaw4qz9gayrjs4in8igiywypb-opentofu-1.11.6"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -270,27 +275,27 @@
     {
       "attr_path": "tfmigrate",
       "broken": false,
-      "derivation": "/nix/store/4yxivkmkagrihnn0h44vhla40b8k8gnd-tfmigrate-0.4.3.drv",
+      "derivation": "/nix/store/lrsbbdvxq7mkx3jhfd4l0ir9x41q2zh7-tfmigrate-0.4.4.drv",
       "description": "Terraform / OpenTofu state migration tool for GitOps ",
       "install_id": "tfmigrate",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "name": "tfmigrate-0.4.3",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
+      "name": "tfmigrate-0.4.4",
       "pname": "tfmigrate",
-      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "rev_count": 888552,
-      "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-04T00:37:24.809630Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T06:05:47.460685Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "0.4.3",
+      "version": "0.4.4",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/88jj7x61w448fyd0jyhfj7xh0dh18c90-tfmigrate-0.4.3"
+        "out": "/nix/store/dlm39ia2wjwjb60763i5y5va7yy7idh4-tfmigrate-0.4.4"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -299,27 +304,27 @@
     {
       "attr_path": "tfmigrate",
       "broken": false,
-      "derivation": "/nix/store/yk89pmqmdi8glr75x40sdfad90mgasnd-tfmigrate-0.4.3.drv",
+      "derivation": "/nix/store/i979fk78j5x2dg4qpd4j28cnv8cmr4g6-tfmigrate-0.4.4.drv",
       "description": "Terraform / OpenTofu state migration tool for GitOps ",
       "install_id": "tfmigrate",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "name": "tfmigrate-0.4.3",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
+      "name": "tfmigrate-0.4.4",
       "pname": "tfmigrate",
-      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "rev_count": 888552,
-      "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-05T16:31:48.772099Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T06:37:51.182100Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "0.4.3",
+      "version": "0.4.4",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/91r2ally6h2c1dwp037vnbz3il9cb4zd-tfmigrate-0.4.3"
+        "out": "/nix/store/66jlnv20pc5lzc1qbvybdwzcahy5x6lx-tfmigrate-0.4.4"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -328,27 +333,27 @@
     {
       "attr_path": "tfmigrate",
       "broken": false,
-      "derivation": "/nix/store/w4c76hvmb42wrmaf8ijmjiacm33iph3h-tfmigrate-0.4.3.drv",
+      "derivation": "/nix/store/hykdfs1nzw952jdyd2y9jxjya8qdj2lk-tfmigrate-0.4.4.drv",
       "description": "Terraform / OpenTofu state migration tool for GitOps ",
       "install_id": "tfmigrate",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "name": "tfmigrate-0.4.3",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
+      "name": "tfmigrate-0.4.4",
       "pname": "tfmigrate",
-      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "rev_count": 888552,
-      "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-05T16:56:58.195366Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T07:07:17.620049Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "0.4.3",
+      "version": "0.4.4",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/i4qv9d50w8yfwp597cm9b17nfnq9kq48-tfmigrate-0.4.3"
+        "out": "/nix/store/a6lmdg5j1n3aam8lssa76x7criabi4bp-tfmigrate-0.4.4"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -357,27 +362,27 @@
     {
       "attr_path": "tfmigrate",
       "broken": false,
-      "derivation": "/nix/store/2jpk7qspgdw56a0kcvkskkprcix509g9-tfmigrate-0.4.3.drv",
+      "derivation": "/nix/store/7y8q8yxk6faw3rlqvy2gldr10xg1rybz-tfmigrate-0.4.4.drv",
       "description": "Terraform / OpenTofu state migration tool for GitOps ",
       "install_id": "tfmigrate",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "name": "tfmigrate-0.4.3",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
+      "name": "tfmigrate-0.4.4",
       "pname": "tfmigrate",
-      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "rev_count": 888552,
-      "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-05T17:23:54.337948Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T07:42:15.381729Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "0.4.3",
+      "version": "0.4.4",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/1iywhiz752rd2li973grn26ylgjmx9pp-tfmigrate-0.4.3"
+        "out": "/nix/store/ypcpmyl0yah70zqs8yzzz1qym924v4rm-tfmigrate-0.4.4"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -386,27 +391,28 @@
     {
       "attr_path": "unzip",
       "broken": false,
-      "derivation": "/nix/store/58lsk2jycfda861xki358dn7prpsa7h9-unzip-6.0.drv",
+      "derivation": "/nix/store/ym2bv1lpw5j03vrpr3zg5pla7nff5j3n-unzip-6.0.drv",
       "description": "Extraction utility for archives compressed in .zip format",
       "install_id": "unzip",
       "license": "Info-ZIP",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "unzip-6.0",
       "pname": "unzip",
-      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "rev_count": 888552,
-      "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-04T00:37:39.125369Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T06:06:08.160803Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
       "version": "6.0",
       "outputs_to_install": [
+        "out",
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/cax7jwcpr8jvzmig070zs82sh6rbl4g5-unzip-6.0"
+        "out": "/nix/store/l1rkjx2mb3sc1yjan7x39f6qm1pzrfh7-unzip-6.0"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -415,17 +421,17 @@
     {
       "attr_path": "unzip",
       "broken": false,
-      "derivation": "/nix/store/hg5gq6rvp6cmiv4gwa6ydi1yw8xxd3nx-unzip-6.0.drv",
+      "derivation": "/nix/store/bbcmi3ax7h5l90qgfi1kfqj0sbdxcjag-unzip-6.0.drv",
       "description": "Extraction utility for archives compressed in .zip format",
       "install_id": "unzip",
       "license": "Info-ZIP",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "unzip-6.0",
       "pname": "unzip",
-      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "rev_count": 888552,
-      "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-05T16:32:06.398669Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T06:38:15.577601Z",
       "stabilities": [
         "unstable"
       ],
@@ -435,7 +441,7 @@
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/9091ih273z39dw91pcq0va5wnh4ndjwk-unzip-6.0"
+        "out": "/nix/store/mhc6n0yhl7wc3n4z3621j8a88zfjx0c0-unzip-6.0"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -444,17 +450,17 @@
     {
       "attr_path": "unzip",
       "broken": false,
-      "derivation": "/nix/store/0ygcsyh6yvzcilxvigw44xkg8a5x2khh-unzip-6.0.drv",
+      "derivation": "/nix/store/3j0cbnzmlpi7y9n4knx634miks0w9s9c-unzip-6.0.drv",
       "description": "Extraction utility for archives compressed in .zip format",
       "install_id": "unzip",
       "license": "Info-ZIP",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "unzip-6.0",
       "pname": "unzip",
-      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "rev_count": 888552,
-      "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-05T16:57:11.761842Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T07:07:37.522456Z",
       "stabilities": [
         "unstable"
       ],
@@ -464,7 +470,7 @@
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/c2wa619lhlsl3l2d3w9b0m7xpnmzdxi6-unzip-6.0"
+        "out": "/nix/store/38ac5gf7a90il75vhx9f62azw1rjnnzv-unzip-6.0"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -473,17 +479,17 @@
     {
       "attr_path": "unzip",
       "broken": false,
-      "derivation": "/nix/store/0irfwxxsv1z2p4kh9nfaz3cdh1hh226m-unzip-6.0.drv",
+      "derivation": "/nix/store/xj0k90lrp99m6j4bkl8a6zn7vbv6kyl2-unzip-6.0.drv",
       "description": "Extraction utility for archives compressed in .zip format",
       "install_id": "unzip",
       "license": "Info-ZIP",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "unzip-6.0",
       "pname": "unzip",
-      "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
-      "rev_count": 888552,
-      "rev_date": "2025-11-02T19:18:41Z",
-      "scrape_date": "2025-11-05T17:24:14.054242Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T07:42:40.664835Z",
       "stabilities": [
         "unstable"
       ],
@@ -493,7 +499,7 @@
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/j7mg9a0m9iihzyw82va027mz3nzm6ak3-unzip-6.0"
+        "out": "/nix/store/2x87m8sh0cm6qbh2myjppisxcb3j961m-unzip-6.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
